@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="10" >
-
+    
+    <!-- <meta http-equiv="refresh" content="1" > -->
     <link rel="stylesheet" href="./styles/index.css">
     <script>
-        function playMusic(){
-        var music = new Audio("../audio/rahhh.mp3");
+        function play1(){
+        var music = new Audio("/soundboard/audio/rahhh.mp3");
         music.play();
 }
     </script>
@@ -21,7 +21,8 @@
     <h3>Happy Birthday Babe xoxoxo</h3>
 
     <div class="soundboard-row">
-        <input type="button" value="sound" onclick="playMusic()">
+        <input type="button" value="Sound_1" id="1" onclick=play1()>
+        <input type="button" value="Sound_2" id="2" onclick=playMusic()>
     </div>
     
 </body>

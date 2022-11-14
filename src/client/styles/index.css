@@ -1,5 +1,19 @@
 h1, h3 {
+    
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+input[type='button'] {
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.soundboard-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+
 }
